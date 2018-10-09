@@ -42,6 +42,7 @@ public class Slider2 {
         
         JTextField textField=new JTextField();
         textField.setColumns(20);
+        textField.setText("50");
         frame.add(textField);
         //攔截 ChangeListener
         //並將 slider.getValue() 填入 textField
